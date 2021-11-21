@@ -27,7 +27,7 @@ ul {
 /* logo */
 .logofull {
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -127,7 +127,7 @@ ul {
 
 .title-benefits {
   color: var(--color-text-nav);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -140,7 +140,7 @@ ul {
 }
 
 .title-about-us {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -148,7 +148,7 @@ ul {
   color: var(--color-text-nav);
 }
 .title-our-team {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.12;
   text-align: center;
@@ -189,13 +189,19 @@ ul {
 .button-text {
   width: 200px;
   height: 50px;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.06em;
   background-color: var(--color-accent);
   color: var(--color-but-add);
   cursor: pointer;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+.button-text:hover,
+.button-text:focus {
+  background-color: #188ce8;
 }
 
 .img-position {
